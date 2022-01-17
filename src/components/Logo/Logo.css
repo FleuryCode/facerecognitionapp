@@ -1,0 +1,10 @@
+.logoContainer {
+    background: linear-gradient(rgb(150, 200, 209), rgb(54, 69, 71));
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
