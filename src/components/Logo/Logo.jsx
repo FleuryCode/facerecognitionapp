@@ -4,9 +4,12 @@ import './Logo.css';
 
 const Logo = () => {
     return (
-        <div className="ma4 mt0 ml5 logoContainer">
+        <a className="logoTag" href="https://j-squaredstudios.com" target={"_blank"}>
+            <div className="logoContainer">
             <img style={{height: 150, width: 150}} src={logoFile} alt="J2 Logo" />
         </div>
+        </a>
+        
     );
 }
 
