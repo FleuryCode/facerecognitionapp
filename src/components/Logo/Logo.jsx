@@ -4,7 +4,7 @@ import './Logo.css';
 
 const Logo = () => {
     return (
-        <a className="logoTag" href="https://j-squaredstudios.com" target={"_blank"}>
+        <a className="logoTag" href="https://j-squaredstudios.com" target={"_blank"} rel={"noreferrer"}>
             <div className="logoContainer">
             <img style={{height: 150, width: 150}} src={logoFile} alt="J2 Logo" />
         </div>
