@@ -1,5 +1,12 @@
-.logoTag {
+
+.mainLogoContainer {
     display: flex;
+    margin-left: 4%;
+}
+
+.logoTag {
+    display: inline-flex;
+
 }
 
 .logoContainer {
