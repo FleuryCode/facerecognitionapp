@@ -16,7 +16,7 @@ class Signin extends React.Component  {
     }
 
     onSubmitSignIn = () => {
-        fetch('http://localhost:3000/signin', {
+        fetch('https://evening-gorge-15360.herokuapp.com/signin', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -49,7 +49,8 @@ class Signin extends React.Component  {
                                 onChange={this.onEmailChange}
                                 className="pa2 input-reset ba w-100" type="email"
                                 name="email-address"
-                                id="email-address" />
+                                id="email-address"
+                                required />
                             </div>
                             <div className="mv3">
                                 <label className="db fw6 lh-copy f6" htmlFor="password">Password</label>
@@ -58,7 +59,8 @@ class Signin extends React.Component  {
                                 className="b pa2 input-reset ba w-100"
                                 type="password"
                                 name="password"
-                                id="password" />
+                                id="password"
+                                required />
                             </div>
                         </fieldset>
                         <div className="">
